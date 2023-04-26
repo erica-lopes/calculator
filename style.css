@@ -12,43 +12,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.title {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-}
-
-.title > img {
-  width: 40px;
-  animation: loading 5s linear infinite;
-}
-
-@keyframes loading {
-  0% {
-    transform: rotate(0);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(-10deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.title > h1 {
-  text-transform: uppercase;
-  padding: 10px;
-  font-size: 20px;
-  color: #c2cde7;
-  text-shadow: -1px -1px 0px #8c6c9c, -1px 1px 0px #8c6c9c, 1px -1px 0px #8c6c9c,
-    1px 0px 0px #8c6c9c;
-}
-
 .box {
   position: absolute;
   background-color: #0f0f0f2d;
